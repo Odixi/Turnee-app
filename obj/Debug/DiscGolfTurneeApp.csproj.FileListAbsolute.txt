@@ -1,0 +1,10 @@
+c:\users\ville\documents\visual studio 2015\Projects\DiscGolfTurneeApp\DiscGolfTurneeApp\bin\Debug\DiscGolfTurneeApp.exe.config
+c:\users\ville\documents\visual studio 2015\Projects\DiscGolfTurneeApp\DiscGolfTurneeApp\bin\Debug\DiscGolfTurneeApp.exe
+c:\users\ville\documents\visual studio 2015\Projects\DiscGolfTurneeApp\DiscGolfTurneeApp\bin\Debug\DiscGolfTurneeApp.pdb
+c:\users\ville\documents\visual studio 2015\Projects\DiscGolfTurneeApp\DiscGolfTurneeApp\obj\Debug\DiscGolfTurneeApp.csprojResolveAssemblyReference.cache
+c:\users\ville\documents\visual studio 2015\Projects\DiscGolfTurneeApp\DiscGolfTurneeApp\obj\Debug\DiscGolfTurneeApp.TurneeMainForm.resources
+c:\users\ville\documents\visual studio 2015\Projects\DiscGolfTurneeApp\DiscGolfTurneeApp\obj\Debug\DiscGolfTurneeApp.Properties.Resources.resources
+c:\users\ville\documents\visual studio 2015\Projects\DiscGolfTurneeApp\DiscGolfTurneeApp\obj\Debug\DiscGolfTurneeApp.csproj.GenerateResource.Cache
+c:\users\ville\documents\visual studio 2015\Projects\DiscGolfTurneeApp\DiscGolfTurneeApp\obj\Debug\DiscGolfTurneeApp.exe
+c:\users\ville\documents\visual studio 2015\Projects\DiscGolfTurneeApp\DiscGolfTurneeApp\obj\Debug\DiscGolfTurneeApp.pdb
+C:\Users\Ville\Documents\Visual Studio 2015\Projects\DiscGolfTurneeApp\DiscGolfTurneeApp\obj\Debug\DiscGolfTurneeApp.CombineForm.resources
