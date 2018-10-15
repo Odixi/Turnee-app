@@ -8,3 +8,14 @@ c:\users\ville\documents\visual studio 2015\Projects\DiscGolfTurneeApp\DiscGolfT
 c:\users\ville\documents\visual studio 2015\Projects\DiscGolfTurneeApp\DiscGolfTurneeApp\obj\Debug\DiscGolfTurneeApp.exe
 c:\users\ville\documents\visual studio 2015\Projects\DiscGolfTurneeApp\DiscGolfTurneeApp\obj\Debug\DiscGolfTurneeApp.pdb
 C:\Users\Ville\Documents\Visual Studio 2015\Projects\DiscGolfTurneeApp\DiscGolfTurneeApp\obj\Debug\DiscGolfTurneeApp.CombineForm.resources
+C:\Users\vz4ev\Documents\Turnee-app\bin\Debug\DiscGolfTurneeApp.exe.config
+C:\Users\vz4ev\Documents\Turnee-app\bin\Debug\DiscGolfTurneeApp.exe
+C:\Users\vz4ev\Documents\Turnee-app\bin\Debug\DiscGolfTurneeApp.pdb
+C:\Users\vz4ev\Documents\Turnee-app\obj\Debug\DiscGolfTurneeApp.csprojAssemblyReference.cache
+C:\Users\vz4ev\Documents\Turnee-app\obj\Debug\DiscGolfTurneeApp.CombineForm.resources
+C:\Users\vz4ev\Documents\Turnee-app\obj\Debug\DiscGolfTurneeApp.TurneeMainForm.resources
+C:\Users\vz4ev\Documents\Turnee-app\obj\Debug\DiscGolfTurneeApp.Properties.Resources.resources
+C:\Users\vz4ev\Documents\Turnee-app\obj\Debug\DiscGolfTurneeApp.csproj.GenerateResource.cache
+C:\Users\vz4ev\Documents\Turnee-app\obj\Debug\DiscGolfTurneeApp.csproj.CoreCompileInputs.cache
+C:\Users\vz4ev\Documents\Turnee-app\obj\Debug\DiscGolfTurneeApp.exe
+C:\Users\vz4ev\Documents\Turnee-app\obj\Debug\DiscGolfTurneeApp.pdb

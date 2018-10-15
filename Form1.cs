@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Linq;
+using System.Diagnostics;
 
 namespace DiscGolfTurneeApp
 {
@@ -186,6 +187,7 @@ namespace DiscGolfTurneeApp
                     }
                     else
                     {
+                        Debug.WriteLine("." + rd.playerScores[p].playerName + ".");
                         names.Add(rd.playerScores[p].playerName);
                         throws.Add(0);
                         eagles.Add(0);

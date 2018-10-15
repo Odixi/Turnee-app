@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -74,8 +75,24 @@ namespace DiscGolfTurneeApp
 
         public void AddRoundFromFile(string filePath)
         {
+            var s = filePath.Split('.');
+            Debug.WriteLine(s[s.Length-1]);
+            if (s[s.Length - 1].Equals("csv", StringComparison.OrdinalIgnoreCase))
+            {
+                AddRoundFromCSV(filePath);
+            } else if (s[s.Length - 1].Equals("xml", StringComparison.OrdinalIgnoreCase))
+            {
+                AddRoundFromXML(filePath);
+            }
+            else
+            {
+                MessageBox.Show("Unknown file format");
+            }
+        }
 
-            
+        private void AddRoundFromXML(string filePath)
+        {
+
             XmlDocument doc = new XmlDocument();
 
             try
@@ -109,8 +126,44 @@ namespace DiscGolfTurneeApp
             catch (Exception e)
             {
                 MessageBox.Show("There was error loading file: \n\n" + e.GetType().ToString());
-                throw e;
             }
+
+        }
+
+        private void AddRoundFromCSV(string filePath)
+        {
+            StreamReader streamReader = new StreamReader(filePath);
+            string line;
+            string[] row;
+            line = streamReader.ReadLine();
+            row = line.Split(',');
+            if (!row[0].Equals("PlayerName"))
+            {
+                Debug.WriteLine("Unknown csv format: First row: " + row[0]);
+                MessageBox.Show("Unknown csv format");
+                return;
+            }
+            line = streamReader.ReadLine();
+            row = line.Split(',');
+            var courseNameAndTime = row[1] + " | " + row[3];
+            int[] pars = new int[row.Length - 6];
+            for(int i = 0; i < pars.Length; i++)
+            {
+                pars[i] = int.Parse(row[i + 6]);
+            }
+            var playerScores = new List<PlayerScore>();
+            while ((line = streamReader.ReadLine()) != null)
+            {
+                row = line.Split(',');
+                var playerName = row[0];
+                var scores = new int[row.Length - 6];
+                for (int i = 0; i < pars.Length; i++)
+                {
+                    scores[i] = int.Parse(row[i + 6]);
+                }
+                playerScores.Add(new PlayerScore(playerName, scores));
+            }
+            data.Add(new RoundData(courseNameAndTime, pars, playerScores.ToArray()));
         }
 
         /// <summary>
